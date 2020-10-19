@@ -1,0 +1,14 @@
+{
+  "baseUrl": "http://localhost:8080",
+  "fileServerFolder": "src",
+  "fixturesFolder": "test/cypress/fixtures",
+  "integrationFolder": "test/cypress/integration",
+  "pluginsFile": "test/cypress/plugins/index.js",
+  "supportFile": "test/cypress/support/index.js",
+  "testFiles": "**/*.feature",
+  "screenshotsFolder": "test/reports/screenshots",
+  "video": true,
+  "videosFolder": "test/reports/videos",
+  "videoUploadOnPasses": false,
+  "ignoreTestFiles": "*.js"
+  }

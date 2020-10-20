@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div style="margin-bottom: 1rem;">
-                        <button class="btn btn-primary btn-block">Sign Up</button>
+                        <button class="btn btn-primary btn-block">Ingresar</button>
                     </div>
                 </div>
             </form>

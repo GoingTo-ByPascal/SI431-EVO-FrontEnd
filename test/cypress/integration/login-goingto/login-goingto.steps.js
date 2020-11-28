@@ -2,8 +2,8 @@ import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
 //TC01
 Given('el usuario que digito su usuario y contraseña correctamente', () => {
-  cy.visit('http://localhost:8080/register');
-  cy.url().should('contains', 'http://localhost:8080/register');
+  cy.visit('https://api-goingto.azurewebsites.net/api/register');
+  cy.url().should('contains', 'https://api-goingto.azurewebsites.net/api/register');
 });
 
 When('de click en el botón -Ingresar-', () => {

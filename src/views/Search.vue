@@ -155,7 +155,7 @@
             selectSource(item) {
                 this.result = item;
                 this.locatableElement = item.locatable;
-                axios.get(`https://goingto.azurewebsites.net/api/locatables/` + item.locatable.id + `/reviews`)
+                axios.get(`https://api-goingto.azurewebsites.net/api/locatables/` + item.locatable.id + `/reviews`)
                     .then(res => this.locatableReviews = res.data)
                 this.test = true
                 this.lat = this.locatableElement.latitude;
@@ -167,13 +167,13 @@
         },
 
         created() {
-            axios.get(`https://goingto.azurewebsites.net/api/countries`)
+            axios.get(`https://api-goingto.azurewebsites.net/api/countries`)
                 .then(res => this.countries = res.data)
 
-            axios.get(`https://goingto.azurewebsites.net/api/cities`)
+            axios.get(`https://api-goingto.azurewebsites.net/api/cities`)
                 .then(res => this.cities = res.data)
 
-            axios.get(`https://goingto.azurewebsites.net/api/places`)
+            axios.get(`https://api-goingto.azurewebsites.net/api/places`)
                 .then(res => this.places = res.data)
         }
     }

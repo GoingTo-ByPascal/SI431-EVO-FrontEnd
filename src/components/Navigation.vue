@@ -29,7 +29,7 @@
             </li>
 
             <li v-if="!currentUser">
-                <router-link  :to="{name:'register'}"></router-link>
+                <router-link  :to="{name:'register'}">SignUp</router-link>
             </li>
 
             <li v-if="!currentUser">

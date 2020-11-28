@@ -1,0 +1,168 @@
+[
+  {
+    "description": "    Como usuario \n    Quiero poder autenticarme con mi usuario y contraseña \n    Para poder realizar consultas de viaje, modificar mi perfil, etc.",
+    "keyword": "Feature",
+    "name": "Iniciar Sesión",
+    "line": 1,
+    "id": "iniciar-sesión",
+    "tags": [],
+    "uri": "login-goingto.feature",
+    "elements": [
+      {
+        "id": "iniciar-sesión;tc01---datos-de-usuario-y-password-correctos",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "TC01 - Datos de usuario y password correctos",
+        "tags": [
+          {
+            "name": "@TC01",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "el usuario que digito su usuario y contraseña correctamente",
+            "result": {
+              "status": "passed",
+              "duration": 4240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "de click en el botón -Ingresar-",
+            "result": {
+              "status": "passed",
+              "duration": 7753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "se le mostrará la pantalla de inicio de los lugares a explorar",
+            "result": {
+              "status": "passed",
+              "duration": 3575000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "iniciar-sesión;tc02---datos-de-usuario-y-password-incorrectos",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "TC02 - Datos de usuario y password incorrectos",
+        "tags": [
+          {
+            "name": "@TC02",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "el usuario ingresa el valor de usuario",
+            "result": {
+              "status": "passed",
+              "duration": 4229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "el usuario ingresa valor de contraseña",
+            "result": {
+              "status": "passed",
+              "duration": 3241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "el usuario da click en el botón -Ingresar-",
+            "result": {
+              "status": "passed",
+              "duration": 1046000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "se muestra una ventana emergente con un mensaje de error",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "iniciar-sesión;tc03---datos-de-usuario-y/o-password-incorrectos",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "TC03 - Datos de usuario y/o password incorrectos",
+        "tags": [
+          {
+            "name": "@TC03",
+            "line": 28
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "el usuario ingresa el valor de usuario",
+            "result": {
+              "status": "passed",
+              "duration": 4160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "el usuario ingresa valor de contraseña",
+            "result": {
+              "status": "passed",
+              "duration": 3245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "el usuario da click en el botón -Ingresar-",
+            "result": {
+              "status": "passed",
+              "duration": 1024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "se muestra una ventana emergente con un mensaje de error",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
